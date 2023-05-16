@@ -50,6 +50,9 @@ print(multiply_four(divide_two(21)))
 
 # Chalenge 5
 def turn_to_float(text):
+    '''
+    if int or float then return float
+    '''
     try:
         return float(text)
     except (ValueError):
