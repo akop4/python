@@ -71,5 +71,7 @@ while True:
 list_a, list_b, list_c = [8, 19, 148, 4], [9, 1, 33, 83], []
 for i in list_a:
     for j in list_b:
-        list_c.append(i * j)
+        k = i * j
+        list_c.append(k)
+        # print(i, '*', j, '=', k)
 print(list_c)
