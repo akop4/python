@@ -18,6 +18,5 @@ list = [['one', 'two', 'three'], ['four', 'five', 'six'], ['seven', 'eight', 'ni
 path_to_file = os.path.join('the_self_taught_programmer', 'Exercies', 'ch_09_3.txt')
 with open(path_to_file, "w") as txt_file:
     csv_file = csv.writer(txt_file,delimiter=',')
-    # for i in list:
     csv_file.writerows(list)
 reading_txt_file(path_to_file)
