@@ -1,2 +1,0 @@
-
-"SO IT GOES.".lower()

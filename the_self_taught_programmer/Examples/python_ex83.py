@@ -1,9 +1,0 @@
-
-print("Michael")
-
-
-
-
-
-
-print("Jordan")

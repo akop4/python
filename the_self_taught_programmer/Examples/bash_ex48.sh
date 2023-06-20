@@ -1,2 +1,0 @@
-
-$ git reset hangman.py.

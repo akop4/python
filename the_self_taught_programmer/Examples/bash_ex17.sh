@@ -1,2 +1,0 @@
-
-$ touch .self_taught

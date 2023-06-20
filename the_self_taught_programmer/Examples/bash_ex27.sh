@@ -1,2 +1,0 @@
-
-$ grep ^If zen.txt

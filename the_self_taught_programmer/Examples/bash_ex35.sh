@@ -1,2 +1,0 @@
-
-$ echo I love $ | grep  \$

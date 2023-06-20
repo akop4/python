@@ -1,2 +1,0 @@
-
-$ grep beautiful zen.txt
