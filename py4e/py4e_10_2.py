@@ -14,6 +14,7 @@ name = input("Enter file:")
 if len(name) < 1:
     name = "mbox-short.txt"
 handle = open(name)
+
 dct_hours = {}
 for line in handle:
     if line.startswith('From '):
@@ -21,5 +22,8 @@ for line in handle:
         hour = line[pos-2:pos]
         dct_hours[hour] = dct_hours.get(hour, 0) + 1
 
+lst_dct_kv = [(k,v) for k,v in dct_hours.items()]
+lst_dct_kv.sort()
 
-print(dct_hours)
+for k,v in lst_dct_kv:
+    print(k, v)
