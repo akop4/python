@@ -11,8 +11,8 @@ You can download the sample data at http://www.py4e.com/code3/mbox-short.txt whe
 '''
 # Use the file name mbox-short.txt as the file name
 #fname = input("Enter file name: ")
-#fh = open(fname)
-fh = open('mbox-short.txt')
+fname = open('mbox-short.txt')
+fh = open(fname)
 count = 0
 f_number = 0.0
 for line in fh:
