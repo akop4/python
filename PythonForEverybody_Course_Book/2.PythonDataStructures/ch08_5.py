@@ -13,7 +13,7 @@ You can download the sample data at http://www.py4e.com/code3/mbox-short.txt
 
 fname = input("Enter file name: ")
 if len(fname) < 1:
-    fname = "mbox-short.txt"
+    fname = "~/github/python/PythonForEverybody_Course_Book/mbox-short.txt"
 fh = open(fname)
 count = 0
 for line in fh: 
