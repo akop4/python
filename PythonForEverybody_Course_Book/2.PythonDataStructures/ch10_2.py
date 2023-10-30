@@ -10,10 +10,9 @@ Once you have accumulated the counts for each hour, print out the counts,
 sorted by hour as shown below.
 '''
 
-name = input("Enter file:")
-if len(name) < 1:
-    name = "mbox-short.txt"
-handle = open(name)
+fname = input("Enter file: ")
+if len(fname) < 1: fname = "PythonForEverybody_Course_Book/0.Files/mbox-short.txt"
+handle = open(fname)
 
 dct_hours = {}
 for line in handle:

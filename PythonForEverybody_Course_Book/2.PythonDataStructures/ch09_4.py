@@ -7,9 +7,9 @@ count of the number of times they appear in the file. After the dictionary is
 produced, the program reads through the dictionary using a maximum loop to
 find the most prolific committer.
 '''
-name = input("Enter file:")
-if len(name) < 1: name = "mbox-short.txt"
-handle = open(name)
+fname = input("Enter file: ")
+if len(fname) < 1: fname = "PythonForEverybody_Course_Book/0.Files/mbox-short.txt"
+handle = open(fname)
 emails = {}
 for line in handle:
     if not line.startswith('From:'): continue
