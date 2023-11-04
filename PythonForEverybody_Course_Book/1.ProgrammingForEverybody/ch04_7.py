@@ -15,9 +15,9 @@ def main():
     if score > 1.0:
         print('Bad score')
     else:
-        computegrade(score)
+        computeGrade(score)
 
-def computegrade(score):
+def computeGrade(score):
     if score < 0.6:
         print('F')
     elif score < 0.7:

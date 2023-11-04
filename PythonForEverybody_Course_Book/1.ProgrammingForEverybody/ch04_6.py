@@ -11,7 +11,7 @@ use the function to do the computation. The function should return a value. Use
  variable sum or use the sum() function.
 '''
 
-def computepay(h, r):
+def computePay(h, r):
     if h > 40:
         ex = h - 40
         h = 40
@@ -19,4 +19,4 @@ def computepay(h, r):
 
 hrs  = float(input("Enter Hours:"))
 rate = float(input("Enter Rate:"))
-print("Pay", computepay(hrs, rate))
+print("Pay", computePay(hrs, rate))

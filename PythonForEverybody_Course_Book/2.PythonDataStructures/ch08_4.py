@@ -10,7 +10,8 @@ You can download the sample data at http://www.py4e.com/code3/romeo.txt
 '''
 
 fname = input("Enter file name: ")
-if len(fname) < 1: fname = "PythonForEverybody_Course_Book/0.Files/romeo.txt"
+if len(fname) < 1: 
+   fname = "PythonForEverybody_Course_Book/0.Files_Examples/romeo.txt"
 fh = open(fname)
 
 lst = list()

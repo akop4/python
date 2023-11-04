@@ -8,7 +8,8 @@ produced, the program reads through the dictionary using a maximum loop to
 find the most prolific committer.
 '''
 fname = input("Enter file: ")
-if len(fname) < 1: fname = "PythonForEverybody_Course_Book/0.Files/mbox-short.txt"
+if len(fname) < 1: 
+    fname = "PythonForEverybody_Course_Book/0.Files_Examples/mbox-short.txt"
 handle = open(fname)
 emails = {}
 for line in handle:

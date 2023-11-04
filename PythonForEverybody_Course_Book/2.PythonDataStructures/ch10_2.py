@@ -11,7 +11,8 @@ sorted by hour as shown below.
 '''
 
 fname = input("Enter file: ")
-if len(fname) < 1: fname = "PythonForEverybody_Course_Book/0.Files/mbox-short.txt"
+if len(fname) < 1: 
+    fname = "PythonForEverybody_Course_Book/0.Files_Examples/mbox-short.txt"
 handle = open(fname)
 
 dct_hours = {}
